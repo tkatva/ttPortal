@@ -1,0 +1,60 @@
+package katvat.test;
+
+import static org.junit.Assert.*;
+
+import java.util.Date;
+import java.util.List;
+
+import katvat.tt.model.*;
+import katvat.tt.dao.service.*;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import org.junit.Test;
+
+public class ProjectDaoTester {
+
+	@Test
+	public void test() {
+		ClassPathXmlApplicationContext cpx =	new ClassPathXmlApplicationContext("spring/application-context.xml");
+		ProjectService service = (ProjectService) cpx.getBean("projectService");
+		Project retVal = null;
+		
+		try {
+			List<Project> pros = service.findByProjectName("Tst1");
+			for (Project pro:pros) {
+				retVal = pro;
+			}
+		} catch (Exception exp) {
+			retVal = null;
+		}
+		if (retVal == null) {
+		Project project = new Project();
+		project.setProjectName("Tst1");
+		project.setProjectDescription("Test project 1");
+		
+		
+		retVal = service.saveProject(project);
+		}
+		assertEquals("Tst1", retVal.getProjectName());
+	}
+	
+	@Test 
+	public void tstTaskAdd() {
+		ClassPathXmlApplicationContext cpx =	new ClassPathXmlApplicationContext("spring/application-context.xml");
+		ProjectService service = (ProjectService) cpx.getBean("projectService");
+		List<Project> projects = service.findByProjectName("Tst1");
+		Project selectedProject;
+		for (Project project : projects) {
+			selectedProject = project;
+		}
+		Task task = new Task();
+		task.setTaskName("Test task");
+		task.setTaskDescription("Test task description");
+		task.setTaskStartDate(new Date());
+		task.setTaskEndDate(new Date());
+		task.setLastUpdateDate(new Date());
+		
+	}
+
+}

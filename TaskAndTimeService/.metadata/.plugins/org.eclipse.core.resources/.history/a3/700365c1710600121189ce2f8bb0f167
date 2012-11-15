@@ -1,0 +1,37 @@
+package katvat.tt.model;
+
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Entity;
+import java.util.Date;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+public class Task {
+
+	public enum TaskStatus {
+		PLANNED,STARTED,FINISHED
+	}
+	
+	private String taskId;
+	
+	private String taskName;
+	
+	private String taskDescription;
+	
+	private int budjetedTaskHours;
+	
+	private TaskStatus taskPhase;
+	
+	private Date taskStartDate;
+	
+	private Date taskEndDate;
+	
+	private Project taskProject;
+	
+	
+	
+}
+
+

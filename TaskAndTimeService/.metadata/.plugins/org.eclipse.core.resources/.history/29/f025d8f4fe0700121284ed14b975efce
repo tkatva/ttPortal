@@ -1,0 +1,12 @@
+package katvat.tt.model;
+
+public class ValueAddedTax {
+
+	private Long vatId;
+	
+	private String vatName;
+	
+	private String vatCode;
+	
+	private int vatPercent;
+}

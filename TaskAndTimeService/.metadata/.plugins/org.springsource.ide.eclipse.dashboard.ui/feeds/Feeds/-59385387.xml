@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.springsource.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SpringSource.org</title>
+ <link>http://www.springsource.org</link>
+ <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
+ <language>en</language>
+<item>
+ <title>Win a Spring Training seat worth $2,500</title>
+ <link>http://www.springsource.org/spring-prize-contest</link>
+ <description>&lt;p&gt;Whether you are a beginner with Spring or an experienced Spring professional there is always a &lt;a href=&quot;http://mylearn.vmware.com/mgrReg/plan.cfm?plan=31719&amp;ui=www_edu&quot;&gt;SpringSource training&lt;/a&gt; for you. SpringSource offers several learning paths including the Spring developer path with &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=one&amp;id_subject=17750&quot;&gt;Core Spring&lt;/a&gt;, &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=one&amp;id_subject=17833&quot;&gt;Enterprise Integration with Spring&lt;/a&gt; and &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=one&amp;id_subject=33053&quot;&gt;Spring Web&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt; Now is your chance to win one of these SpringSource trainings. SpringSource is giving away a free SpringSource Spring training seat worth over $2,500. Sign up for the SpringSource newsletter before October 20, 2012 to join this contest. Winners will be announced on October 21, 2012. Winners will receive a referral code that can be used at the &lt;a href=&quot;http://mylearn.vmware.com/mgrReg/plan.cfm?plan=31719&amp;ui=www_edu&quot;&gt;Spring Education Site&lt;/a&gt; for a training of choice.&lt;/p&gt;
+
+&lt;a href=&quot;http://vmware.us5.list-manage.com/subscribe?u=7aa6598689f1502ae57179bcc&amp;id=94a56c9bfd&quot;&gt;Click Here To Join The Contest&lt;/a&gt;</description>
+ <comments>http://www.springsource.org/spring-prize-contest#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Mon, 01 Oct 2012 07:28:36 +0000</pubDate>
+ <dc:creator>Mark Baars</dc:creator>
+ <guid isPermaLink="false">3675 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Rockin&#039; out with SpringSource at JavaOne 2012</title>
+ <link>http://www.springsource.org/node/3674</link>
+ <description>&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2012-09-30T16:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2012-09-30 09:00 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2012-10-03T21:00:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2012-10-03 14:00 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Pacific &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2012-09-30T16:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2012-09-30 09:00 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2012-10-03T21:00:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2012-10-03 14:00 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Pacific &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;field field-type-text field-field-location&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Location:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;p&gt;San Francisco&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/files/duke.png&quot; alt=&quot;Duke Rockin Out&quot; width=&quot;300&quot; height=&quot;256&quot; align=&quot;right&quot; /&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;JavaOne 2012 should be an exciting conference, and San Francisco downtown is booked solid with developers from all corners of the Java community. There will be lots of activity and sessions, Java Univeristy, and as always, rock and roll baby.. this year&#039;s appreciation event is Pearl Jam and Kings of Leon! Spring enthusiasts also shouldn&#039;t  miss the upcoming &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/home&quot;&gt;SpringOne 2GX Conference&lt;/a&gt; in Washington, DC Oct 15th-18th.&lt;/p&gt;
+&lt;p&gt;So what is SpringSource up to this year at the conference?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;SpringSource Booth #5302&lt;/u&gt;&lt;/strong&gt; @ Hilton Union Square - Monday 10:30am-5, Tuesday 10am-5, Wednesday 9:30am-5&lt;br /&gt;
+  Stop by to get cool schwag, hoodies and t-shirts you might actually wear, and of course, see demos and talk to experts on Spring,  Groovy/Grails, Cloud Foundry and vFabric. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;Rockstar Sessions at the conference&lt;/u&gt;: &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monday, Oct. 1&lt;/strong&gt;&lt;br /&gt;
+  1:00 pm – 2:00 pm &lt;br /&gt;
+  What&amp;rsquo;s New in Grails 2.0?&lt;br /&gt;
+  Speaker: Graeme Rocher&lt;br /&gt;
+  Location: Parc 55 – Cyril Magnin I&lt;/p&gt;
+&lt;p&gt;8:30 pm – 9:15 pm &lt;br /&gt;
+  Web Framework Smackdown 2012&lt;br /&gt;
+  Speaker: Graeme Rocher&lt;br /&gt;
+  Location: Parc 55 – Cyril Magnin II/III&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+  &lt;strong&gt;Tuesday, Oct. 2 &lt;/strong&gt;&lt;br /&gt;
+  10:00 am – 11:00 am&lt;br /&gt;
+  Java EE and Spring Framework Panel Discussion&lt;br /&gt;
+  Speaker: Chris Beams &lt;br /&gt;
+  Location: Parc 55 – Market Street &lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wednesday, Oct. 3 &lt;/strong&gt;&lt;br /&gt;
+  10:00 am – 11:00 am &lt;br /&gt;
+  Developing Polyglot Persistence Applications &lt;br /&gt;
+  Speaker: Chris Richardson&lt;br /&gt;
+  Location: Parc 55 – Market Street &lt;/p&gt;
+&lt;p&gt;11:30 am – 12:30 pm&lt;br /&gt;
+  Script Bowl 2012: The Battle of the JVM-Based Languages&lt;br /&gt;
+  Speaker: Guillaume Laforge&lt;br /&gt;
+  Location: Hilton San Francisco – Plaza A/B&lt;/p&gt;
+&lt;p&gt;1:00 pm – 2:00 pm&lt;br /&gt;
+  Developing Applications with Cloud Services &lt;br /&gt;
+  Speaker: Chris Richardson&lt;br /&gt;
+  Location: Parc 55 – Embarcadero&lt;/p&gt;
+&lt;p&gt;3:00 pm – 4:00 pm&lt;br /&gt;
+  What&amp;rsquo;s New in Groovy 2.0?&lt;br /&gt;
+  Speaker: Guillaume Laforge &lt;br /&gt;
+  Location: Hilton San Francisco – Golden Gate 6/7/8&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;Spring At Java University&lt;/u&gt;: &lt;/strong&gt;@ Hilton San Francisco Union Square and Hotel Nikko San Francisco - Sunday 8am-3:30&lt;/p&gt;
+&lt;p&gt;Extensive and fast-paced hands-on University    Sessions on Sunday, learn while you are at the conference.  You can register for &lt;a href=&quot;http://www.oracle.com/us/ju-reg-pop-1622693.html?iframe=true&amp;amp;width=540&amp;amp;height=170&quot;&gt;Java    University&lt;/a&gt; for 800.00 USD only or attend with the conference. SpringSource will be offering full day course: &lt;a href=&quot;http://www.oracle.com/javaone/program/schedule/university/index.html#spring&quot;&gt;Developing Enterprise Applications with the Spring Framework&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instructor: &lt;/strong&gt;Chris Richardson&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Course Level: &lt;/strong&gt;Intermediate&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Course Description:&lt;/strong&gt;&lt;br /&gt;
+  The Spring Framework is a widely used full-stack Java technology–based   application framework. The foundations of the Spring Framework are   dependency injection (DI), aspect-oriented programming (AOP), and   portable service abstractions (PSAs). Together, these foundational   elements simplify application development and boost developer   productivity.&lt;/p&gt;
+&lt;p&gt;This course covers a broad range of topics to give participants a   clear understanding of the Spring Framework. You will learn about DI and   how it promotes loose coupling and simplifies test-driven development   (TDD). The course also describes AOP and how it simplifies application   code by promoting modularity and separation of concerns. You will learn   how PSAs, which provide extensive support for middle-tier functionality   such as persistence, remoting, and messaging, dramatically reduce the   amount of you need to write and improve application portability. This   course describes the new features in Spring 3.1 and surveys the numerous   other projects in the Spring ecosystem. By the end of the course,   participants should be ready to apply Spring in their own applications.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Spring Lightweight Container Architecture, Including Inversion of Control&lt;/li&gt;
+  &lt;li&gt;Agile, Domain-Driven Design Techniques with Spring&lt;/li&gt;
+  &lt;li&gt;Effective JDBC and Persistence Data Access&lt;/li&gt;
+  &lt;li&gt;Declarative Transaction Management&lt;/li&gt;
+  &lt;li&gt;Pragmatic AOP&lt;/li&gt;
+  &lt;li&gt;Unit Testing in Isolation&lt;/li&gt;
+  &lt;li&gt;Rapid System Integration Testing&lt;/li&gt;
+  &lt;li&gt;Spring Support for JSR-250 Annotations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;field field-type-text field-field-description&quot;&gt;
+      &lt;div class=&quot;field-label&quot;&gt;Description:&amp;nbsp;&lt;/div&gt;
+    &lt;div class=&quot;field-items&quot;&gt;
+            &lt;div class=&quot;field-item odd&quot;&gt;
+                    &lt;p&gt;JavaOne 2012&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <comments>http://www.springsource.org/node/3674#comments</comments>
+ <pubDate>Wed, 26 Sep 2012 21:09:16 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3674 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This Week in Spring - 25th September, 2012 </title>
+ <link>http://www.springsource.org/node/3673</link>
+ <description> 
+&lt;P&gt; Welcome back to another installment of &lt;EM&gt;This Week in Spring&lt;/em&gt;!
+  There&#039;s &lt;EM&gt;so&lt;/EM&gt; much good stuff to look at this week. Can you believe we&#039;re already staring down October? 
+
+It&#039;s time to think about who or what you are going to be for halloween!&lt;/p&gt;
+
+&lt;P&gt; With October comes &lt;A href =&quot;http://springone2gx.com&quot;&gt;SpringOne2GX&lt;/A&gt;, the premier event for Spring developers.  
+Check out the &lt;a href=&quot;http://springone2gx.com/conference/washington/2012/10/schedule&quot;&gt;final schedule&lt;/a&gt; of 
+ &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/sessions&quot;&gt;speakers and  sessions&lt;/a&gt; 
+for this year&#039;s event! SpringOne 2GX is your opportunity to  learn from development leads and published authors on the Spring,  Groovy/Grails, Tomcat and Cloud technologies. &lt;br&gt;
+
+ &lt;/P&gt;
+&lt;OL&gt;
+  &lt;LI&gt;  The video from Spring Security lead Rob Winch&#039;s webinar   introducing &lt;A Href = &quot;http://www.springsource.org/spring-security&quot;&gt;Spring Security&lt;/a&gt;  &lt;a href = &quot;http://www.springsource.org/node/3670&quot;&gt;is now available&lt;/a&gt;.  &lt;/LI&gt;
+  &lt;LI&gt;  Oleg Zhurakousky kicks off the march  to Spring Integration  2.2 with &lt;A href =&quot;http://blog.springsource.org/2012/09/24/whats-new-in-spring-integration-2-2-rc1-part-1-mongodb/&quot;&gt;a blog introducing the new MongoDB features  in 2.2&lt;/A&gt;. 
+ 
+ &lt;LI&gt;  Gary Russell &lt;a href = &quot;http://www.springsource.org/node/3665&quot;&gt;has announced release candidate 1 of Spring Integration 2.2&lt;/a&gt;. 
+  
+
+          This is intended to be the final release before GA, so users are encouraged to give feedback on this release.  
+
+	&lt;/LI&gt;
+&lt;LI&gt;Costin Leau has announced &lt;A href =&quot;http://www.springsource.org/node/3664&quot;&gt; the 1.0.0.RC1 release of Spring Shell&lt;/a&gt;, which is an extraction of the  shell   used in   Spring Roo and made available through the Spring programming model.  
+	   
+	
+	   &lt;/LI&gt;
+ &lt;LI&gt;  Roger Hughes is back at it again, this time with &lt;A href =&quot;http://java.dzone.com/articles/spring-31-caching-and-config&quot;&gt;a look at  Spring 3.1 caching and configuration&lt;/a&gt; options, specifically focusing on setting up a &lt;CODE&gt;CacheManager&lt;/CODE&gt;.   &lt;/li&gt;
+  &lt;LI&gt;  The vFabric blog  has an interesting look at the &lt;a href =&quot;http://blogs.vmware.com/vfabric/2012/09/spring-insight-split-agent-architecture.html&quot;&gt;&quot;split-agent&quot; architecture behind Spring Insight&lt;/A&gt;, that allows the separation of the collection stage from the analysis one.  
+	 &lt;/LI&gt;
+  &lt;LI&gt;Krishna Prasad has a nice post on &lt;a href =&quot;http://krishnasblog.com/tag/spring-mvc/&quot;&gt;obtaining test coverage information for Spring Web Flow applications&lt;/a&gt;.  &lt;/LI&gt;
+ &lt;LI&gt;  Mattias Severson has a  nice post on handling errors &lt;A href =&quot;http://www.jayway.com/2012/09/23/improve-your-spring-rest-api-part-ii/&quot;&gt;in Spring MVC-based RESTful application&lt;/a&gt;.   &lt;/LI&gt;
+  &lt;LI&gt; Ronillo Ang&#039;s put together a very brief deck on the &lt;a href =&quot;http://www.slideshare.net/ronilloang/spring-mvc-demo-14356569&quot;&gt;fundamental pieces of a Spring MVC application&lt;/a&gt;.   &lt;/LI&gt;
+  &lt;LI&gt; The JavaCode Geeks blog has a nice post &lt;a href=&quot;http://www.javacodegeeks.com/2012/09/spring-persistence-layer-writing.html&quot;&gt;on writing persistence layers with the Spring framework&lt;/a&gt;. &lt;/LI&gt;
+  &lt;LI&gt;&lt;EM&gt;L&#039;Artech&lt;/EM&gt; blog has a cool post on   
+	 creating &lt;a href = &quot;http://shreymalhotra.me/blog/tutorial/spring-mvc-creating-the-homepage-part-3-web-app-series/&quot;&gt;the login form for a web application using Spring MVC&lt;/a&gt;, in part 3 of a series. 
+	 &lt;/LI&gt;
+ 
+  
+&lt;/oL&gt;
+</description>
+ <comments>http://www.springsource.org/node/3673#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 26 Sep 2012 04:12:26 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3673 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Second milestone of spring-test-mvc released</title>
+ <link>http://www.springsource.org/node/3672</link>
+ <description>&lt;p&gt;A second milestone of the &lt;a title=&quot;spring-test-mvc&quot; href=&quot;https://github.com/SpringSource/spring-test-mvc&quot;&gt;Spring MVC Test&lt;/a&gt; project is now available through the SpringSource &lt;a title=&quot;JFrog&quot; href=&quot;http://www.jfrog.com/home/&quot;&gt;Artifactory&lt;/a&gt; repository &lt;a title=&quot;SpringSource milestone Artifactory repository&quot; href=&quot;http://repo.springsource.org/milestone&quot;&gt;http://repo.springsource.org/milestone&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;There is much that&#039;s new. On the server side we&#039;ve added support for servlet filters, basic support for Spring Security, the ability to define default request properties and expectations to re-use across every performed request, and much more. On the client side we&#039;ve greatly expanded the options for request matching and response creation.&lt;/p&gt;
+&lt;p&gt;For further details and comments read &lt;a href=&quot;http://rossenstoyanchev.org/blog/2012/09/25/second-milestone-of-spring-test-mvc/&quot;&gt;this blog post&lt;/a&gt;.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3672#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 26 Sep 2012 04:06:06 +0000</pubDate>
+ <dc:creator>Rossen Stoyanchev</dc:creator>
+ <guid isPermaLink="false">3672 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Video: Spring Security Fundamentals</title>
+ <link>http://www.springsource.org/node/3670</link>
+ <description>&lt;p&gt;
+
+&lt;p&gt;By Rob Winch, Senior Software Engineer, Spring Security Lead  
+&lt;p&gt;Due to its complexity, implementing security can be a daunting task for developers of all skill levels. In this presentation we will discuss, in depth, the foundation of Spring Security&#039;s architecture through the use of working sample code. We will start off with an existing application and learn how we can add Spring Security to it. We will then explore how Spring Security works underneath the hood. 
+&lt;p&gt;
+
+&lt;center&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/if6EMTVZ200&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+
+&lt;p&gt;Be sure to thumbs up the presentation if you find it useful and &lt;a href=&quot;http://www.youtube.com/subscription_center?adduser=SpringSourceDev&quot;&gt;subscribe to the SpringSourceDev channel&lt;/a&gt; to see other recordings and screencasts.&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3670#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 25 Sep 2012 22:09:47 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3670 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringOne 2GX Session Highlight: Client-Side UI Smackdown with Craig Walls</title>
+ <link>http://www.springsource.org/node/3667</link>
+ <description>&lt;p&gt; 
+&lt;div style=&quot;float: right; width:114; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/session?id=27660&quot;&gt;&lt;img height=&quot;130&quot; alt=&quot;Craig Walls&quot; width=&quot;130&quot; border=&quot;0&quot; src=&quot;http://www.springone2gx.com/s/images/bio/38_Walls_20110408_053039_medium_sq.jpg&quot;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the modern web, user interfaces are expected to be rich, highly   responsive, and available anytime, anywhere, and on any device.   Round-trip server-side HTML rendering doesn&#039;t fit the bill any longer   and numerous JavaScript frameworks have stepped forward to simplify   development of client-side user-interfaces. With so many great options   available, we now face a paradox of choice and it can be difficult to   decide which UI framework best suits our needs.&lt;/p&gt;
+&lt;p&gt;In this session we&#039;ll explore a handful of the most popular   client-side UI frameworks, including Backbone, Knockout, Sammy, and   Spine (and others) weighing their strengths and weaknesses and helping   decide which framework is most suitable for a given set of UI goals.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/session?id=27660&quot;&gt;session on SpringOne2GX.com&lt;/a&gt; for more details and  &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/register&quot;&gt;register&lt;/a&gt; today!&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3667#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Mon, 24 Sep 2012 20:44:34 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3667 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringOne 2GX: October 15-18, 2012 – Final Schedule Available Now</title>
+ <link>http://www.springsource.org/node/3666</link>
+ <description>&lt;strong&gt;SpringOne 2GX: October 15-18, 2012 – Washington, DC&lt;/strong&gt;&lt;br&gt;
+&lt;br&gt;
+Check out the &lt;a href=&quot;http://app.connect.vmware.com/e/er?s=524&amp;lid=23456&amp;elq=e51f40e947ee4ab1b3aa5dac932267b8&quot;&gt;final schedule&lt;/a&gt; of &lt;a href=&quot;http://app.connect.vmware.com/e/er?s=524&amp;lid=22487&amp;elq=e51f40e947ee4ab1b3aa5dac932267b8&quot;&gt;speakers and  sessions &lt;/a&gt;for this year&#039;s event! SpringOne 2GX is your opportunity to  learn from development leads and published authors on the Spring,  Groovy/Grails, Tomcat and Cloud technologies—speakers include this year&#039;s  keynote Adrian Colyer, Juergen Hoeller, Chris Beams, Ben Alex, Chris  Richardson, Ramnivas Laddad, Mark Pollack, and Mark Fisher. Sessions are geared  to teach you information that is immediately applicable to developing business  applications on or off premise, creating multi-device aware web applications,  enabling your application for Big Data and NoSQL, and managing high performance  infrastructures for your organization.&lt;br&gt;
+&lt;br&gt;
+&lt;a href=&quot;http://app.connect.vmware.com/e/er?s=524&amp;lid=23293&amp;elq=e51f40e947ee4ab1b3aa5dac932267b8&quot;&gt;Register today&lt;/a&gt; – see you in October!</description>
+ <comments>http://www.springsource.org/node/3666#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Sat, 22 Sep 2012 19:05:07 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3666 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Integration Release Candidate 1 is Released!</title>
+ <link>http://www.springsource.org/node/3665</link>
+ <description>&lt;p&gt;Spring Integration 2.2.0.RC1 - the release candidate for the 2.2 stream, including a number of important features and improvements, is now available. Barring major issues, we expect to make the final release shortly, so users are encouraged to try out the new features, some of which are described &lt;a href=&quot;http://static.springsource.org/spring-integration/docs/2.2.0.RC1/reference/htmlsingle/#whats-new&quot;&gt;here&lt;/a&gt;. Over the next week or so, we intend to release a number of &lt;a href=&quot;http://blog.springsource.com/&quot;&gt;blog posts&lt;/a&gt; highlighting some of these features and others.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Release notes are available &lt;a href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=12602&quot;&gt;here&lt;/a&gt;. The issues listed there are closed, in addition to those in milestones 1 through 4.&lt;/li&gt;
+&lt;li&gt;Artifacts are available in the &lt;a href=&quot;http://repo.springsource.org/simple/libs-milestone-local/org/springframework/integration/&quot;&gt; SpringSource repo&lt;/a&gt; and &lt;a href=&quot;http://www.springsource.org/download/community?project=Spring%2520Integration&quot;&gt;the community download page&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;More information is available on the project&#039;s &lt;a href=&quot;http://www.springsource.org/spring-integration&quot;&gt;home page&lt;/a&gt;.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3665#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Fri, 21 Sep 2012 20:55:06 +0000</pubDate>
+ <dc:creator>Gary Russell</dc:creator>
+ <guid isPermaLink="false">3665 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Shell 1.0.0.RC1 Released </title>
+ <link>http://www.springsource.org/node/3664</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am pleased to announce the first release candidate for Spring Shell project! Spring Shell is an interactive shell that can be easily extended with commands using a Spring based programming model, extracted from the Spring Roo project.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Shell&amp;amp;version=1.0.0.RC1&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-shell/docs/1.0.0.RC1/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-shell/docs/1.0.0.RC1/reference/html&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-shell/docs/1.0.0.RC1/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This release contains various fixes related to JLine/Jansi. See the &lt;a href=&quot;http://static.springsource.org/spring-shell/docs/1.0.0.RC1/changelog.txt&quot;&gt;changelog&lt;/a&gt; for detailed info. &lt;/p&gt;
+&lt;p&gt;We look forward to your feedback on the &lt;a href=&quot;http://forum.springsource.org/forum.php&quot;&gt;forum&lt;/a&gt; or in the &lt;a href=&quot;https://jira.springsource.org/browse/SHL&quot;&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3664#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 20 Sep 2012 17:26:23 +0000</pubDate>
+ <dc:creator>Costin Leau</dc:creator>
+ <guid isPermaLink="false">3664 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This Week in Spring - 18th September, 2012</title>
+ <link>http://www.springsource.org/node/3663</link>
+ <description> 
+&lt;p&gt; Welcome to another installation of &lt;EM&gt;This Week in Spring&lt;/EM&gt;! 
+	 This week I&#039;m in Bloomington-Normal, Illinois talking to StateFarm about Spring Projects: MVC, REST,  Mobile, and  Android.  The developers here are code ninjas. Listening to their internal talks over the course of the day has been eye opening, to say the least. Don&#039;t miss the Spring, Groovy and Grails event of the year in Washington, DC: &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/home&quot;&gt;SpringOne2GX&lt;/a&gt;.  If you haven&#039;t already registered, now&#039;s the time! Oh, and don&#039;t forget, if you&#039;re in the United States, today is &lt;a href =&quot;http://www.huffingtonpost.com/2012/09/18/national-cheeseburger-day-la_n_1892385.html&quot;&gt;national cheeseburger day&lt;/a&gt;! So... bon appetit! &lt;/p&gt;
+	
+&lt;OL&gt;
+	
+    &lt;LI&gt; Chris Beams has announced the availability of &lt;a href =&quot;http://www.springsource.org/node/3654&quot;&gt;Spring Framework 3.2 M2&lt;/a&gt;, which features many new features including improved &lt;CODE&gt;TestContext&lt;/CODE&gt; support, Spring MVC improvements, asynchronous &lt;CODE&gt;@Controllers&lt;/CODE&gt;, and lots of bug-fixes and improvements.  &lt;/LI&gt;
+    &lt;LI&gt; This month&#039;s SpringSource webinar is coming fast - &lt;a href =&quot;http://www.springsource.org/node/3653&quot;&gt; Spring Security with Rob Winch&lt;/a&gt;. Be sure to register now! &lt;/LI&gt;
+    &lt;li&gt; Martin Lippert has announced the availability  of the &lt;a href=&quot;http://www.springsource.org/node/3658&quot;&gt;3.1.0.M1 update for the Spring and Grails Tool Suites&lt;/a&gt;.
+    The new release includes integrations built on top of Eclipse 3.8 and Eclipse 4.2, updated support for Mylyn 3.8.1, Maven support for Grails projects, and Mac OSX 10.8&#039;s Gatekeeper support. &lt;/li&gt;
+    &lt;li&gt;&lt;a href = &quot;http://twitter.com/m_f_&quot;&gt;Mark Fisher&#039;s&lt;/a&gt; epic tome &lt;a href = &quot;http://www.springsource.org/node/3659&quot;&gt;&lt;em&gt;Spring Integration in Action&lt;/em&gt; is available&lt;/a&gt;! &lt;/li&gt;
+    &lt;li&gt;  Broadleaf Commerce published  &lt;a href=&quot;http://www.broadleafcommerce.com/post/why-broadleaf-continues-to-choose-spring&quot;&gt;a great blog&lt;/a&gt; post about why their project continues to choose Spring over Java EE.&lt;/li&gt;
+    &lt;li&gt; Jonathan Brisbin has announced the availability of &lt;a href =&quot;http://www.springsource.org/node/3657&quot;&gt;the Spring Data REST project, 1.0.0.RC3&lt;/a&gt;, which includes a significant number of bug fixes, adds improved JSON representation, better integration of Jackson user-defined &lt;code&gt;Module&lt;/code&gt;s, and support for the &lt;a href=&quot;https://github.com/SpringSource/spring-hateoas&quot;&gt;Spring HATEOAS project&lt;/a&gt;.&lt;/li&gt;
+    &lt;LI&gt; The TomcatExpert portal has announced the availability of &lt;a href  =&quot;http://www.tomcatexpert.com/blog/2012/09/18/apache-tomcat-maven-plugin-20&quot;&gt;the Apache Tomcat Maven Plugin, version 2.0&lt;/a&gt;, which supports deploying to - and embedding instances of - Apache Tomcat from the Maven build tool. &lt;/LI&gt;
+ 
+    &lt;LI&gt; 
+      Spring Data ninja Oliver Gierke tweeted the availability &lt;a href =&quot;https://github.com/SpringSource/spring-hateoas/commit/9e728b4660238f96a6ab25a4d63fe443a1c187eb&quot;&gt;of JAX-RS support in Spring HATEOAS&lt;/a&gt;. Spring HATEOAS, named for the pattern (&quot;HTTP-as-the-engine-of-application-state&quot;), makes it dead simple to build links to other RESTful resources based on the classes that host those resources. In a sense,
+	   you get type safety when building RESTful URLs.  You build an HTTP URL reference to a Spring MVC &lt;CODE&gt;@Controller&lt;/CODE&gt; based on its class. Now, you can do the same for &lt;CODE&gt;@Path&lt;/CODE&gt;-annotated JAX-RS classes thanks to this novel pull request. Nice! 
+  &lt;/LI&gt;
+    &lt;LI&gt; The RabbitMQ blog announces the availability of &lt;a href =&quot;https://www.rabbitmq.com/blog/2012/09/12/mqtt-adapter/&quot;&gt;a new MQTT adapter for RabbitMQ&lt;/a&gt;. MQTT, to quote &lt;a href=&quot;http://mqtt.org&quot;&gt;the MQTT website&lt;/A&gt;, &quot;A lightweight messaging protocol for small sensors and mobile devices, optimized for high-latency or unreliable networks.&quot; Really cool!  &lt;/LI&gt;
+    &lt;LI&gt; Nicolas Frankel has an interesting post &lt;a href= &quot;http://java.dzone.com/articles/lessons-learned-integrating&quot;&gt;about his experience jBPM 4 and Spring&lt;/a&gt;. 	
+	Normally, at this point, I&#039;d forward people to the &lt;a href=&quot;http://www.activi.org&quot;&gt;Activiti&lt;/a&gt; open-source BPMNS 2 workflow engine, which enjoys a very powerful Spring integration, but Nicolas has already tried it and couldn&#039;t adapt it because of organizational pressures! So, it&#039;s nice to at least see how to integrate jBPM. 
+  &lt;/LI&gt;
+    &lt;LI&gt; Christian Posta has a nice post on how to handle routes with Spring Integration, &lt;a href=&quot;http://architects.dzone.com/articles/backing-spring-integration-0&quot;&gt;delegating to an ActiveMQ broker for durable exchanges&lt;/a&gt;.  &lt;/LI&gt;
+    &lt;LI&gt; Julio de Jesus has put together a nice  blog  on using &lt;a href =&quot;http://ykchee.blogspot.com/2012/09/spring-31-bean-profiles.html&quot;&gt;Spring 3.1&#039;s bean profiles feature to describe environment-specific beans in a Spring application&lt;/a&gt;.  &lt;/LI&gt;
+    &lt;LI&gt;  The Thymeleaf project has just announced &lt;a href=&quot;http://forum.thymeleaf.org/Thymeleaf-now-has-Spring-Security-integration-td4025044.html&quot;&gt;new support for Spring Security integration&lt;/a&gt; with the Thymeleaf view template technology.&lt;/LI&gt;
+
+    &lt;LI&gt; The Technical Notes blog has a great post describing how to &lt;a href = &quot; http://tshikatshikaaa.blogspot.com/2012/09/spring-sitemesh-integration-example.html&quot;&gt;integrate Sitemesh with your Spring applications&lt;/a&gt;. &lt;/LI&gt;
+    &lt;LI&gt; Our pal Roger Hughes is back at it, this time with a lovely post on &lt;a href=&quot;http://java.dzone.com/articles/spring-31-caching-and&quot;&gt;using Spring 3.1&#039;s &lt;CODE&gt;@Cacheable&lt;/CODE&gt; annotation and the &lt;CODE&gt;CacheManager&lt;/CODE&gt; API&lt;/a&gt;. &lt;/LI&gt; 
+    &lt;LI&gt; A new version of the &lt;a href=&quot;http://t.co/ltm7fgbo&quot;&gt;C24 Spring Components has been released&lt;/a&gt;.  &lt;/lI&gt;
+&lt;/OL&gt;</description>
+ <comments>http://www.springsource.org/node/3663#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 19 Sep 2012 06:27:13 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3663 at http://www.springsource.org</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,44 @@
+package katvat.tt.model;
+
+public class ValueAddedTax {
+
+	private Long vatId;
+	
+	private String vatName;
+	
+	private String vatCode;
+	
+	private int vatPercent;
+
+	public Long getVatId() {
+		return vatId;
+	}
+
+	public void setVatId(Long vatId) {
+		this.vatId = vatId;
+	}
+
+	public String getVatName() {
+		return vatName;
+	}
+
+	public void setVatName(String vatName) {
+		this.vatName = vatName;
+	}
+
+	public String getVatCode() {
+		return vatCode;
+	}
+
+	public void setVatCode(String vatCode) {
+		this.vatCode = vatCode;
+	}
+
+	public int getVatPercent() {
+		return vatPercent;
+	}
+
+	public void setVatPercent(int vatPercent) {
+		this.vatPercent = vatPercent;
+	}
+}

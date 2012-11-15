@@ -1,0 +1,57 @@
+package katvat.tt.dao.service;
+
+import java.util.List;
+
+import katvat.tt.model.TaskType;
+import katvat.tt.model.ValueAddedTax;
+
+import com.mysema.query.*;
+import com.mysema.query.jpa.*;
+import com.mysema.query.jpa.impl.JPAQuery;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import katvat.tt.dao.VatDao;
+import katvat.tt.dao.TaskTypeDao;
+
+public class VatTaskTypeDaoImpl implements VatTaskTypeDao {
+
+	@Override
+	public ValueAddedTax saveValueAddedTax(ValueAddedTax vat) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean removeValueAddedTax(ValueAddedTax vat) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<ValueAddedTax> findAllVats() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<TaskType> findAllTaskTypes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public TaskType saveTaskType(TaskType taskType) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean removeTaskType(TaskType taskType) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

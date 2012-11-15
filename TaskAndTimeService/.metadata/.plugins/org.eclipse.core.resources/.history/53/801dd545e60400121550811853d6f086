@@ -1,0 +1,22 @@
+package katvat.tt.dao.impl;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import katvat.tt.dao.ProjectDao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+
+@Repository
+@Transactional
+public class ProjectDaoImpl  {
+
+	@PersistenceContext
+	private EntityManager em;
+
+	@Autowired
+	private ProjectDao repository;
+	
+}

@@ -1,0 +1,142 @@
+package katvat.tt.model;
+
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+
+import java.util.Date;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+public class Task {
+
+	public enum TaskStatus {
+		PLANNED,STARTED,FINISHED
+	}
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long taskId;
+	
+	private String taskName;
+	
+	private String taskDescription;
+	
+	private int budjetedTaskHours;
+	
+	private TaskStatus taskStatus;
+	
+	@Temporal(TemporalType.DATE)
+	private Date taskStartDate;
+	
+	@Temporal(TemporalType.DATE)
+	private Date taskEndDate;
+	
+	@ManyToOne
+	private Project taskProject;
+	
+	private int taskPercentComplete;
+	
+	private User lastUpdatedBy;
+	
+	@Temporal(TemporalType.DATE)
+	private Date lastUpdated;
+	
+	private int taskPriority;
+
+	public Long getTaskId() {
+		return taskId;
+	}
+
+	public void setTaskId(Long taskId) {
+		this.taskId = taskId;
+	}
+
+	public String getTaskName() {
+		return taskName;
+	}
+
+	public void setTaskName(String taskName) {
+		this.taskName = taskName;
+	}
+
+	public String getTaskDescription() {
+		return taskDescription;
+	}
+
+	public void setTaskDescription(String taskDescription) {
+		this.taskDescription = taskDescription;
+	}
+
+	public int getBudjetedTaskHours() {
+		return budjetedTaskHours;
+	}
+
+	public void setBudjetedTaskHours(int budjetedTaskHours) {
+		this.budjetedTaskHours = budjetedTaskHours;
+	}
+
+	public TaskStatus getTaskStatus() {
+		return taskStatus;
+	}
+
+	public void setTaskStatus(TaskStatus taskStatus) {
+		this.taskStatus = taskStatus;
+	}
+
+	public Date getTaskStartDate() {
+		return taskStartDate;
+	}
+
+	public void setTaskStartDate(Date taskStartDate) {
+		this.taskStartDate = taskStartDate;
+	}
+
+	public Date getTaskEndDate() {
+		return taskEndDate;
+	}
+
+	public void setTaskEndDate(Date taskEndDate) {
+		this.taskEndDate = taskEndDate;
+	}
+
+	public Project getTaskProject() {
+		return taskProject;
+	}
+
+	public void setTaskProject(Project taskProject) {
+		this.taskProject = taskProject;
+	}
+
+	public int getTaskPercentComplete() {
+		return taskPercentComplete;
+	}
+
+	public void setTaskPercentComplete(int taskPercentComplete) {
+		this.taskPercentComplete = taskPercentComplete;
+	}
+
+	public User getLastUpdatedBy() {
+		return lastUpdatedBy;
+	}
+
+	public void setLastUpdatedBy(User lastUpdatedBy) {
+		this.lastUpdatedBy = lastUpdatedBy;
+	}
+
+	public int getTaskPriority() {
+		return taskPriority;
+	}
+
+	public void setTaskPriority(int taskPriority) {
+		this.taskPriority = taskPriority;
+	}
+	
+	
+	
+}
+
+

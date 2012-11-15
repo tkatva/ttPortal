@@ -1,0 +1,5 @@
+package katvat.tt.dao;
+
+public interface ProjectDao {
+
+}

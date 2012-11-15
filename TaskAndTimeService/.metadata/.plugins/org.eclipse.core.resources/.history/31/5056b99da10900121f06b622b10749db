@@ -1,0 +1,61 @@
+package katvat.tt.model;
+
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+public class TaskHour {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long taskHourId;
+	
+	private Double taskHours;
+	
+	private String hourComments;
+	
+	@ManyToOne
+	private Task taskHoursTask;
+
+	public Long getTaskHourId() {
+		return taskHourId;
+	}
+
+	public void setTaskHourId(Long taskHourId) {
+		this.taskHourId = taskHourId;
+	}
+
+	public Double getTaskHours() {
+		return taskHours;
+	}
+
+	public void setTaskHours(Double taskHours) {
+		this.taskHours = taskHours;
+	}
+
+	public String getHourComments() {
+		return hourComments;
+	}
+
+	public void setHourComments(String hourComments) {
+		this.hourComments = hourComments;
+	}
+
+	public Task getTaskHoursTask() {
+		return taskHoursTask;
+	}
+
+	public void setTaskHoursTask(Task taskHoursTask) {
+		this.taskHoursTask = taskHoursTask;
+	}
+}

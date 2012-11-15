@@ -1,0 +1,8 @@
+package katvat.tt.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import katvat.tt.model.*;
+
+public interface ProjectDao extends JpaRepository<Project, Long> {
+
+}

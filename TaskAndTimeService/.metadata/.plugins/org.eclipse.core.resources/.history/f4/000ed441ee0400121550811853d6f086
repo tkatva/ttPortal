@@ -1,0 +1,43 @@
+package katvat.tt.dao.impl;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import katvat.tt.dao.ProjectDao;
+import katvat.tt.dao.service.ProjectDaoService;
+import katvat.tt.model.Project;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+
+@Repository
+@Transactional
+public class ProjectServiceImpl implements ProjectDaoService {
+
+	@PersistenceContext
+	private EntityManager em;
+
+	@Autowired
+	private ProjectDao repository;
+
+	@Transactional
+	public Project saveProject(Project project) {
+		 return repository.save(project);
+	}
+
+	@Transactional
+	public int deleteProject(Project project) {
+		repository.delete(project);
+		return 0;
+	}
+
+	public List<Project> findAllProjects() {
+		return repository.findAll();
+	}
+	
+	
+	
+}

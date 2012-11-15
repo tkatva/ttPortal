@@ -1,0 +1,11 @@
+package katvat.tt.dao.service;
+
+import katvat.tt.model.*;
+
+public interface VatTaskTypeDao {
+	
+	ValueAddedTax saveValueAddedTax(ValueAddedTax vat);
+	
+	boolean removeValueAddedTax(ValueAddedTax vat);
+
+}

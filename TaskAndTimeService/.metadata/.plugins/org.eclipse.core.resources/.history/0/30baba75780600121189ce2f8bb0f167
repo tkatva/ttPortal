@@ -1,0 +1,41 @@
+package katvat.test;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import katvat.tt.model.*;
+import katvat.tt.dao.service.*;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import org.junit.Test;
+
+public class ProjectDaoTester {
+
+	@Test
+	public void test() {
+		ClassPathXmlApplicationContext cpx =	new ClassPathXmlApplicationContext("spring/application-context.xml");
+		ProjectDaoService service = (ProjectDaoService) cpx.getBean("projectService");
+		Project retVal = null;
+		
+		try {
+			List<Project> pros = service.findByProjectName("Tst1");
+			for (Project pro:pros) {
+				retVal = pro;
+			}
+		} catch (Exception exp) {
+			retVal = null;
+		}
+		if (retVal == null) {
+		Project project = new Project();
+		project.setProjectName("Tst1");
+		project.setProjectDescription("Test project 1");
+		
+		
+		retVal = service.saveProject(project);
+		}
+		assertEquals("Tst1", retVal.getProjectName());
+	}
+
+}

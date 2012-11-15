@@ -1,0 +1,13 @@
+package katvat.tt.dao.service;
+
+import katvat.tt.model.*;
+
+public interface ProjectDaoService {
+
+	public Project saveProject(Project project);
+	
+	public int deleteProject(Project project);
+	
+	public List<Project> findAllProjects;
+	
+}

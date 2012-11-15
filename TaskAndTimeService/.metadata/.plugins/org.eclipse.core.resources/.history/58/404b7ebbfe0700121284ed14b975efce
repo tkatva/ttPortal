@@ -1,0 +1,16 @@
+package katvat.tt.model;
+
+
+public class TaskType {
+
+	
+	private String taskTypeId;
+	
+	private String taskTypeName;
+	
+	private String taskTypeAbbr;
+	
+//	private double 
+	
+	private String taskTypeDesc;
+}

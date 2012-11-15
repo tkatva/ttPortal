@@ -1,0 +1,112 @@
+package katvat.tt.model;
+
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Entity;
+import java.util.Date;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+public class Project {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long projectId;
+	
+	private String projectName;
+	
+	private String projectDescription;
+	
+	private int projectPriority;
+	
+	private Long version;
+	
+	private int budjetedHours;
+	
+	private String lastUpdatedBy;
+	
+	@Temporal(TemporalType.DATE)
+	private Date updateDate;
+	
+	@Temporal(TemporalType.DATE)
+	private Date projectStartDate;
+	
+	@Temporal(TemporalType.DATE)
+	private Date projectEndDate;
+	
+	private String projectManagerId;
+	
+	public String getProjectDescription() {
+		return projectDescription;
+	}
+
+	public void setProjectDescription(String projectDescription) {
+		this.projectDescription = projectDescription;
+	}
+
+	public int getProjectPriority() {
+		return projectPriority;
+	}
+
+	public void setProjectPriority(int projectPriority) {
+		this.projectPriority = projectPriority;
+	}
+
+	public Long getVersion() {
+		return version;
+	}
+
+	public void setVersion(Long version) {
+		this.version = version;
+	}
+
+	public int getBudjetedHours() {
+		return budjetedHours;
+	}
+
+	public void setBudjetedHours(int budjetedHours) {
+		this.budjetedHours = budjetedHours;
+	}
+
+	public String getLastUpdatedBy() {
+		return lastUpdatedBy;
+	}
+
+	public void setLastUpdatedBy(String lastUpdatedBy) {
+		this.lastUpdatedBy = lastUpdatedBy;
+	}
+
+	public Date getUpdateDate() {
+		return updateDate;
+	}
+
+	public void setUpdateDate(Date updateDate) {
+		this.updateDate = updateDate;
+	}
+
+	public Date getProjectStartDate() {
+		return projectStartDate;
+	}
+
+	public void setProjectStartDate(Date projectStartDate) {
+		this.projectStartDate = projectStartDate;
+	}
+
+	public Date getProjectEndDate() {
+		return projectEndDate;
+	}
+
+	public void setProjectEndDate(Date projectEndDate) {
+		this.projectEndDate = projectEndDate;
+	}
+
+
+
+	
+
+
+	
+	
+}
