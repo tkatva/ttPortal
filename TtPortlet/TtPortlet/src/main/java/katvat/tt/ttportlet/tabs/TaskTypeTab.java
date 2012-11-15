@@ -6,17 +6,12 @@ import com.vaadin.data.util.BeanItemContainer;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Button.ClickEvent;
 import com.vaadin.ui.CustomComponent;
-import com.vaadin.ui.Label;
 import com.vaadin.ui.Panel;
 import com.vaadin.ui.Table;
 import com.vaadin.ui.VerticalLayout;
-import java.util.List;
-import javax.annotation.PostConstruct;
+import com.vaadin.ui.Window;
 import katvat.tt.ttportlet.helper.I18N;
-import katvat.tt.dao.service.VatTaskTypeDao;
 import katvat.tt.model.ValueAddedTax;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
 /**
@@ -36,6 +31,8 @@ public class TaskTypeTab extends CustomComponent {
     
     @Autowired(required=true)
     private TaskTypeTabPresenter presenter;
+    
+    private Window vatAddWindow;
 
     @Override
     public void attach() {
@@ -43,7 +40,7 @@ public class TaskTypeTab extends CustomComponent {
 
         panel.addComponent(buildVatTable());
         getPresenter().setView(this);
-       
+        getPresenter().loadTableData();
     }
     
     
@@ -56,19 +53,16 @@ public class TaskTypeTab extends CustomComponent {
         setCompositionRoot(rootLayout);
     }
    
+    public void addVatToTable(ValueAddedTax vat) {
+        vatTable.getContainerDataSource().addItem(vat);
+    }
 
    
     private VerticalLayout buildVatTable() {
         VerticalLayout vatTableLayout = new VerticalLayout();
         vatTableLayout.setSizeUndefined();
-        Button loadData = new Button(I18N.getMessage("TaskTypeTab.vat.load"));
-        loadData.addListener(new Button.ClickListener() {
-
-            public void buttonClick(ClickEvent event) {
-                getPresenter().loadTableData();
-            }
-        });
-        vatTableLayout.addComponent(loadData);
+        
+        
         vatTable = new Table(I18N.getMessage("TaskTypeTab.vat.table.title"));
         vatTable.setHeight("200px");
         vatTable.setWidth("500px");
@@ -76,6 +70,17 @@ public class TaskTypeTab extends CustomComponent {
         setColumnNames();
         //TODO
         Button newVatButton = new Button(I18N.getMessage("TaskTypeTab.vat.new.vat"));
+        newVatButton.addListener(new Button.ClickListener() {
+
+            public void buttonClick(ClickEvent event) {
+                vatAddWindow = new Window();
+                VatEditForm vatEdit = new VatEditForm(new ValueAddedTax());
+                vatAddWindow.addComponent(vatEdit);
+                vatEdit.setSizeUndefined();
+                getWindow().addWindow(vatAddWindow);
+                
+            }
+        });
         vatTableLayout.addComponent(vatTable);
         vatTableLayout.addComponent(newVatButton);
         
@@ -85,6 +90,16 @@ public class TaskTypeTab extends CustomComponent {
     
     public void setTableData(BeanItemContainer<ValueAddedTax> vats) {
         vatTable.setContainerDataSource(vats);
+    }
+    
+    public void showMessage(String msg) {
+        getWindow().showNotification(msg);
+    }
+    
+    public void removeVatEditWindow() {
+        if (vatAddWindow != null) {
+            getWindow().removeWindow(vatAddWindow);
+        }
     }
     
     private void setColumnNames() {

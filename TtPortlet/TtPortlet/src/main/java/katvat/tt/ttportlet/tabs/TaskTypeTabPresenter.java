@@ -7,6 +7,7 @@ import java.io.Serializable;
 import java.util.List;
 import katvat.tt.dao.service.VatTaskTypeDao;
 import katvat.tt.model.ValueAddedTax;
+import katvat.tt.ttportlet.helper.I18N;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,15 +38,27 @@ public class TaskTypeTabPresenter implements Serializable{
     protected final Logger log = LoggerFactory.getLogger(getClass());
     
     public void loadTableData() {
-        log.warn("DAO " + getTtDao());
+        
         presenterView.setTableData(convertModelToBeanItem(getTtDao().findAllVats()));
+    }
+    
+    public void saveVat(ValueAddedTax vat)  {
+        getTtDao().saveValueAddedTax(vat);
+        presenterView.addVatToTable(vat);
+        presenterView.removeVatEditWindow();
+        presenterView.showMessage(I18N.getMessage("VatEdit.save.ok.msg"));
+        
+    }
+    
+    public void cancelVatSave() {
+        presenterView.removeVatEditWindow();
     }
     
     private BeanItemContainer<ValueAddedTax> convertModelToBeanItem(List<ValueAddedTax> vats) {
         BeanItemContainer<ValueAddedTax> container = new BeanItemContainer<ValueAddedTax>(ValueAddedTax.class);
         
         for (ValueAddedTax vat:vats) {
-            log.warn("FOUND VAT : " + vat.getVatCode());
+            
             container.addBean(vat);
         }
         
