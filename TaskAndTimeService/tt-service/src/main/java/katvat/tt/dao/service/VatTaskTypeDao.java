@@ -16,5 +16,7 @@ public interface VatTaskTypeDao {
 	TaskType saveTaskType(TaskType taskType);
 	
 	boolean removeTaskType(TaskType taskType);
+        
+        List<TaskType> getVatTaskTypes(ValueAddedTax vat);
 
 }

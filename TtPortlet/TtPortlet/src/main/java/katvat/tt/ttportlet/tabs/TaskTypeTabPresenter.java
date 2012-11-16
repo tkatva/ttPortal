@@ -6,6 +6,7 @@ import com.vaadin.data.util.BeanItemContainer;
 import java.io.Serializable;
 import java.util.List;
 import katvat.tt.dao.service.VatTaskTypeDao;
+import katvat.tt.model.TaskType;
 import katvat.tt.model.ValueAddedTax;
 import katvat.tt.ttportlet.helper.I18N;
 import org.slf4j.Logger;
@@ -42,8 +43,30 @@ public class TaskTypeTabPresenter implements Serializable{
         presenterView.setTableData(convertModelToBeanItem(getTtDao().findAllVats()));
     }
     
+    private boolean checkIfVatIsUsed(ValueAddedTax vat) {
+        List<TaskType> types = getTtDao().getVatTaskTypes(vat);
+        if (types != null && types.size() > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
+    public void removeVat(ValueAddedTax vat) {
+        
+        if (!checkIfVatIsUsed(vat)) {
+        ttDao.removeValueAddedTax(vat);
+        presenterView.removeVatFromTable(vat);
+        presenterView.removeVatEditWindow();
+        } else {
+        presenterView.removeVatEditWindow();
+        presenterView.showErrorMessage(I18N.getMessage("VatEdit.save.vat.used"));
+        }
+    }
+    
     public void saveVat(ValueAddedTax vat)  {
         getTtDao().saveValueAddedTax(vat);
+        presenterView.removeVatFromTable(vat);
         presenterView.addVatToTable(vat);
         presenterView.removeVatEditWindow();
         presenterView.showMessage(I18N.getMessage("VatEdit.save.ok.msg"));
