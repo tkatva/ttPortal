@@ -1,0 +1,7 @@
+# Ignore maven target directory
+target/
+#Ignore all jars etc
+*.jar
+*.war
+*.ear
+*.class
