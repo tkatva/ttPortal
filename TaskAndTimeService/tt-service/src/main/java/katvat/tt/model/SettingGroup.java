@@ -83,6 +83,35 @@ public class SettingGroup implements Serializable {
     public void setSettings(List<Setting> settings) {
         this.settings = settings;
     }
+
+    @Override
+    public String toString() {
+        return settingGroupName;
+    }
+    
+    
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 59 * hash + (this.settingGroupId != null ? this.settingGroupId.hashCode() : 0);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final SettingGroup other = (SettingGroup) obj;
+        if (this.settingGroupId != other.settingGroupId && (this.settingGroupId == null || !this.settingGroupId.equals(other.settingGroupId))) {
+            return false;
+        }
+        return true;
+    }
     
     
     

@@ -20,12 +20,14 @@ public class MainTabSheet extends CustomComponent{
     TabSheet mainTabs = new TabSheet();
     ProjectTab projectTab = new ProjectTab();
     TaskTypeTab taskTypeTab = new TaskTypeTab();
+    SettingTab settingsTab = new SettingTab();
 
     @Override
     public void attach() {
         super.attach();
         mainTabs.addTab(projectTab, I18N.getMessage("ProjectTab.panel.title"));
         mainTabs.addTab(taskTypeTab, I18N.getMessage("TaskTypeTab.label.title"));
+        mainTabs.addTab(settingsTab,I18N.getMessage("MainTabSheet.SettingTab"));
     }
     
     

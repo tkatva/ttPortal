@@ -1,5 +1,6 @@
 package katvat.tt.ttportlet.tabs;
 
+import katvat.tt.ttportlet.tabs.forms.VatEditForm;
 import com.vaadin.data.Property;
 import com.vaadin.data.Property.ValueChangeEvent;
 import com.vaadin.data.util.BeanItemContainer;
