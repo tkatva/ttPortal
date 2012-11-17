@@ -21,7 +21,7 @@ import katvat.tt.model.QValueAddedTax;
 
 @Repository
 @Transactional
-public class VatTaskTypeDaoImpl implements VatTaskTypeDao {
+public class VatTaskTypeServiceImpl implements VatTaskTypeService {
 
         @PersistenceContext
         private EntityManager em;

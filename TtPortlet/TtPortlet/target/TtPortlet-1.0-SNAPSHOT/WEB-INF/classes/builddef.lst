@@ -15,6 +15,7 @@
 /home/tuomas/Projektit/PortalTaskAndTime/TtPortlet/TtPortlet/src/main/java/katvat/tt/ttportlet/listeners/WindowListener.java
 /home/tuomas/Projektit/PortalTaskAndTime/TtPortlet/TtPortlet/src/main/java/katvat/tt/ttportlet/TtWebApplication.java
 /home/tuomas/Projektit/PortalTaskAndTime/TtPortlet/TtPortlet/src/main/java/katvat/tt/ttportlet/tabs/VatEditForm.java
+/home/tuomas/Projektit/PortalTaskAndTime/TtPortlet/TtPortlet/src/main/java/katvat/tt/ttportlet/tabs/TaskTypeEditForm.java
 /home/tuomas/Projektit/PortalTaskAndTime/TtPortlet/TtPortlet/src/main/java/katvat/tt/ttportlet/tabs/TaskTypeTab.java
 /home/tuomas/Projektit/PortalTaskAndTime/TtPortlet/TtPortlet/src/main/java/katvat/tt/ttportlet/tabs/TaskTypeTabPresenter.java
 /home/tuomas/Projektit/PortalTaskAndTime/TtPortlet/TtPortlet/src/main/java/katvat/tt/ttportlet/tabs/ProjectTab.java

@@ -1,5 +1,5 @@
 
-package katvat.tt.dao.service;
+package katvat.tt.dao;
 
 import java.io.Serializable;
 import katvat.tt.model.SettingGroup;

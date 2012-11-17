@@ -3,7 +3,7 @@ package katvat.tt.dao.service;
 import katvat.tt.model.*;
 import java.util.List;
 
-public interface VatTaskTypeDao {
+public interface VatTaskTypeService {
 	
 	ValueAddedTax saveValueAddedTax(ValueAddedTax vat);
 	

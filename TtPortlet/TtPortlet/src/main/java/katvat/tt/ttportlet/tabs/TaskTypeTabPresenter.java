@@ -5,7 +5,7 @@ package katvat.tt.ttportlet.tabs;
 import com.vaadin.data.util.BeanItemContainer;
 import java.io.Serializable;
 import java.util.List;
-import katvat.tt.dao.service.VatTaskTypeDao;
+import katvat.tt.dao.service.VatTaskTypeService;
 import katvat.tt.model.TaskType;
 import katvat.tt.model.ValueAddedTax;
 import katvat.tt.ttportlet.helper.I18N;
@@ -23,7 +23,7 @@ import org.springframework.stereotype.Component;
 public class TaskTypeTabPresenter implements Serializable{
 
     @Autowired(required=true)
-    private VatTaskTypeDao ttDao;
+    private VatTaskTypeService ttDao;
     
     
     private TaskTypeTab presenterView;
@@ -91,14 +91,14 @@ public class TaskTypeTabPresenter implements Serializable{
     /**
      * @return the ttDao
      */
-    public VatTaskTypeDao getTtDao() {
+    public VatTaskTypeService getTtDao() {
         return ttDao;
     }
 
     /**
      * @param ttDao the ttDao to set
      */
-    public void setTtDao(VatTaskTypeDao ttDao) {
+    public void setTtDao(VatTaskTypeService ttDao) {
         this.ttDao = ttDao;
     }
     

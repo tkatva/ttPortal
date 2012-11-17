@@ -10,7 +10,7 @@ import com.vaadin.ui.Form;
 import com.vaadin.ui.HorizontalLayout;
 import java.util.List;
 import java.util.Vector;
-import katvat.tt.dao.service.VatTaskTypeDao;
+import katvat.tt.dao.service.VatTaskTypeService;
 import katvat.tt.model.ValueAddedTax;
 import katvat.tt.ttportlet.event.WindowClickEvent;
 import katvat.tt.ttportlet.helper.I18N;
@@ -27,7 +27,7 @@ import org.springframework.beans.factory.annotation.Configurable;
 public class VatAddWindow extends CustomComponent{
 
     @Autowired
-    VatTaskTypeDao ttDao;
+    VatTaskTypeService ttDao;
     Form vatAddForm;
     
     ValueAddedTax currentVat;
